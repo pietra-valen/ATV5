@@ -1,0 +1,12 @@
+programa
+{
+	inclua biblioteca Matematica --> m
+	
+	funcao inicio()
+	{
+	
+		real fio =  m.raiz(m.potencia(11.5,2) + m.potencia(6.3,2), 2)
+		escreva("O eletrecista tera comprar: ", m.arredondar(fio, 3), " metros de fio")
+		
+	}
+}
