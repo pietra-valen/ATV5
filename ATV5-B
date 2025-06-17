@@ -1,0 +1,19 @@
+programa
+{
+	inclua biblioteca Matematica --> m
+
+	funcao inicio()
+	{
+		real L1, L2, fio
+
+		escreva("Digite o valor de um dos lados: ")
+		leia(L1)
+
+		escreva("Digite o valor de um segundo lado: ")
+		leia(L2)
+
+		fio = m.raiz(m.potencia(L1, 2) + m.potencia(L2, 2), 2)
+
+		escreva("Voce terá que usar ", m.arredondar(fio, 3), " metros de fio")
+	}
+}
